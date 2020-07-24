@@ -64,6 +64,15 @@ header{
     justify-content: space-evenly;
     align-items: center;
     transition: transform .3s ease-in-ot;
-    transform: translate(110%);
+    transform: translate(100%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navigation a{
+    color: #fff;
+    text-decoration: none;
 }
