@@ -104,3 +104,11 @@ header{
     flex-wrap: wrap;
 }
 
+.contenedor-servicio img{
+    width: 40%
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
