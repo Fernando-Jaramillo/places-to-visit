@@ -153,3 +153,19 @@ header{
     cursor: pointer;
 }
 
+.imagen-light{
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar-imagen{
+    width: 60%;
+    border-radius: 10px;
+}
