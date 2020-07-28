@@ -209,3 +209,10 @@ header{
     margin: 0;
     
 }
+
+.cont-experts h3{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
