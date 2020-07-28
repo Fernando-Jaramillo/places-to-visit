@@ -17,7 +17,7 @@ body{
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 header{
@@ -49,7 +49,7 @@ header{
     height: 40px;
     cursor: pointer;
     border-radius:  10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 0 6px rgba(199, 111, 111, 0.3);
 }
 
 .menu-navigation{
@@ -65,7 +65,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     transition: transform .3s ease-in-ot;
-    transform: translate(110%);
+    transform: translate(100%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 }
 
@@ -106,7 +106,7 @@ header{
 }
 
 .contenedor-servicio img{
-    width: 40%
+    width: 40%;
 }
 
 .checklist-servicio{
@@ -119,7 +119,7 @@ header{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0
+    color: #9f8ad0;
 }
 
 .number{
@@ -165,7 +165,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(110%);
+    transform: translate(100%);
     transition: transform .2s ease-in-out;
 }
 
@@ -209,7 +209,7 @@ header{
 .cont-experts img{
     width: 80%;
     display: block;
-    margin: 0;
+    margin: 0 auto;
     
 }
 
@@ -294,7 +294,7 @@ footer{
         font-size: 40px;
     }
     .contenedor-servicio img{
-        width: 100%;
+        width: 80%;
         margin-bottom: 10px;
     }
     .checklist-servicio{
@@ -302,6 +302,9 @@ footer{
     }
     .service{
         margin-bottom: 30px;
+    }
+    .service p{
+        font-size: 15px;
     }
     .agregar-imagen{
         width: 80%;
@@ -311,7 +314,7 @@ footer{
         width: 45%;
     }
     .cont-experts{
-        width: 80%
+        width: 80%;
     }
     .footer-content{
         justify-content: center;
@@ -323,6 +326,9 @@ footer{
     .social-media i{
         margin-left: 0;
     }
+    .social-media-icon{
+        margin-left: 0;
+    }
     .contact-us{
         text-align: center;
         width: 80%;
@@ -330,5 +336,39 @@ footer{
     }
     .contact-us p{
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .menu-navigation{
+        width: 65vw;
+    }
+    .agregar-imagen{
+        width: 90%;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .copy{
+        font-size: 20px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .img-galeria{
+        width: 95%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .brand{
+        font-size: 30px;
+    }
+    .contact-us p{
+        font-size: 15px;
     }
 }
