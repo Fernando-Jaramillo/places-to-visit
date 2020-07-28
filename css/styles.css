@@ -313,5 +313,22 @@ footer{
     .cont-experts{
         width: 80%
     }
-    
+    .footer-content{
+        justify-content: center;
+    }
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .social-media i{
+        margin-left: 0;
+    }
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .contact-us p{
+        margin-top: 20px;
+    }
 }
