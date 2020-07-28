@@ -21,6 +21,7 @@ body{
 }
 
 header{
+    text-align: center;
     height: 100vh;
     background-image: linear-gradient(to top, rgba(217, 175, 217, 0.548) 0%, rgba(151, 218, 225, 0.521) 100%), url(../img/imagine.jpg);
     background-repeat: no-repeat;
@@ -146,6 +147,7 @@ header{
 }
 
 .img-galeria{
+    object-fit: cover;
     width: 30%;
     display: block;
     margin-bottom: 15px;
@@ -163,7 +165,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(100%);
+    transform: translate(110%);
     transition: transform .2s ease-in-out;
 }
 
@@ -172,6 +174,7 @@ header{
 }
 
 .agregar-imagen{
+    object-fit: cover;
     width: 60%;
     border-radius: 10px;
     transform: scale(0);
@@ -287,5 +290,28 @@ footer{
     .menu-navigation{
         width: 50vw;
     }
+    .titulo{
+        font-size: 40px;
+    }
+    .contenedor-servicio img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .checklist-servicio{
+        width: 80%;
+    }
+    .service{
+        margin-bottom: 30px;
+    }
+    .agregar-imagen{
+        width: 80%;
+    }
 
+    .img-galeria{
+        width: 45%;
+    }
+    .cont-experts{
+        width: 80%
+    }
+    
 }
