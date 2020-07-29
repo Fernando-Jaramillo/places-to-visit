@@ -8,7 +8,10 @@ console.log(contenedorLight);
 
 imagenes.forEach(imagen => {
     imagen.addEventListener("click", () => {
-        alert('ok you pushed me');
+        aparecerImagen(imagen.getAttribute('src'));
     })
-})
+});
 
+const aparecerImagen = (imagen) => {
+    imagenLight.src = imagen;
+}
