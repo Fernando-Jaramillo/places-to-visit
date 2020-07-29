@@ -14,4 +14,6 @@ imagenes.forEach(imagen => {
 
 const aparecerImagen = (imagen) => {
     imagenLight.src = imagen;
+    contenedorLight.classList.toggle('show')
+    imagenLight.classList.toggle('showImage')
 }
