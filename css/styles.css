@@ -95,7 +95,7 @@ header{
 .subtitulo{
     text-align: center;
     font-weight: 300;
-    color: #9f8ad0;
+    color: #40cddf;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -108,7 +108,7 @@ header{
 }
 
 .contenedor-servicio img{
-    width: 40%;
+    width: 50%;
 }
 
 .checklist-servicio{
@@ -121,18 +121,19 @@ header{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #40cddf;
+    font-weight: 450;
 }
 
 .number{
     display: inline-block;
-    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgb(255, 255, 255) 0%, rgba(0,0,0,0.30) 100%);
+    background: #78d1dd;
     width: 30px;
     height: 30px;
     color: #fff;
     text-align: center;
     border-radius: 50%;
-    font-weight: 700;
+    font-weight: 450;
     line-height: 30px;
     margin-right: 5px;
 }
