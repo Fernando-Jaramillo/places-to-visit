@@ -23,7 +23,7 @@ body{
 header{
     text-align: center;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(217, 175, 217, 0.404) 0%, rgba(151, 218, 225, 0.411) 100%), url(../img/imagine.jpg);
+    background-image: linear-gradient(to top, rgba(217, 175, 217, 0.11) 0%, rgba(151, 218, 225, 0.336) 100%), url(../img/women-beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
