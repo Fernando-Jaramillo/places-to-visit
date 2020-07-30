@@ -23,7 +23,7 @@ body{
 header{
     text-align: center;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(217, 175, 217, 0.11) 0%, rgba(151, 218, 225, 0.336) 100%), url(../img/women-beach.jpg);
+    background-image: linear-gradient(to top, rgba(217, 175, 217, 0) 0%, rgba(151, 218, 225, 0) 100%), url(../img/women-beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ header{
     padding: 0;
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     color: #fff;
@@ -58,15 +58,15 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background: linear-gradient(to top, #09203fec 0%, #537895e1 100%);
  background-blend-mode: screen;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    transition: transform .3s ease-in-ot;
+    transition: transform .5s ease-in-out;
     transform: translate(110%);
-    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 9px rgba(0, 0, 0, .4);
 }
 
 .spread{
@@ -76,11 +76,13 @@ header{
 .menu-navigation a{
     color: #fff;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .titulo{
     font-size: 60px;
     margin-bottom: 15px;
+    margin-top: 50px;
 }
 
 .copy{
