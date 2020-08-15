@@ -375,3 +375,115 @@ footer{
         font-size: 15px;
     }
 }
+
+
+/* media query for iphone */
+
+@media only screen and (min-width: 414px) 
+and (max-width: 736px){ 
+    .test-class{display: none !important; visibility: hidden !important;}
+    .menu-navigation{
+        width: 65vw;
+    }
+    .agregar-imagen{
+        width: 90%;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .copy{
+        font-size: 20px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .img-galeria{
+        width: 95%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .brand{
+        font-size: 30px;
+    }
+    .contact-us p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 414px) 
+and (max-width: 736px) and (orientation: portrait) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+    .menu-navigation{
+        width: 65vw;
+    }
+    .agregar-imagen{
+        width: 90%;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .copy{
+        font-size: 20px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .img-galeria{
+        width: 95%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .brand{
+        font-size: 30px;
+    }
+    .contact-us p{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 414px) 
+and (max-width: 736px) and (orientation: landscape) { 
+    .test-class{display: none !important; visibility: hidden !important;}
+    .menu-navigation{
+        width: 65vw;
+    }
+    .agregar-imagen{
+        width: 90%;
+    }
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .copy{
+        font-size: 20px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .img-galeria{
+        width: 95%;
+    }
+    .social-media{
+        width: 100%;
+    }
+    .brand{
+        font-size: 30px;
+    }
+    .contact-us p{
+        font-size: 15px;
+    }
+}
