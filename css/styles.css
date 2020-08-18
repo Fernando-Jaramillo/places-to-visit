@@ -376,7 +376,7 @@ footer{
     }
 }
 
-@media only screen and (min-width: 414px) 
+/* @media only screen and (min-width: 414px) 
 and (max-width: 736px){ 
     .test-class{display: none !important; visibility: hidden !important;}
     .menu-navigation{
@@ -483,4 +483,4 @@ and (max-width: 736px) and (orientation: landscape) {
     .contact-us p{
         font-size: 15px;
     }
-}
+} */
